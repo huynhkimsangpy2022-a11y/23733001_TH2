@@ -1,0 +1,24 @@
+# Node modules
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# React Native
+.expo/
+*.orig.*
+
+# Android
+android/.gradle
+android/build
+android/app/build
+android/app/.cxx
+android/local.properties
+android/.idea
+*.iml
+
+# Temporary files
+*.log
+emulator_screen.png
+screen.png
+.DS_Store
+Thumbs.db
