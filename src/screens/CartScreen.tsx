@@ -136,12 +136,15 @@ const styles = StyleSheet.create({
     paddingHorizontal: 16,
     paddingVertical: 14,
     backgroundColor: theme.primary,
+    alignItems: 'center',
+    justifyContent: 'center',
   },
   headerTitle: {
     fontSize: 20,
     fontWeight: '900',
     color: '#FFFFFF',
     letterSpacing: 1,
+    textAlign: 'center',
   },
   content: {
     padding: 12,

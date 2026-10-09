@@ -1,4 +1,4 @@
-# HUỲNH KIM SANG - MSSV: 23733001 - URL: https://github.com/huynh-kim-sang/23733001_TH2.git - Stamp: #606095 - Số cuối: 1 - VARIANT: Dưới | phone | Shop→Giỏ→Tôi | selection | B | card
+# HUỲNH KIM SANG - MSSV: 23733001 - URL: https://github.com/huynhkimsangpy2022-a11y/23733001_TH2.git - Stamp: #606095 - Số cuối: 1 - VARIANT: Dưới | phone | Shop→Giỏ→Tôi | selection | B | card
 
 ## THÔNG TIN BÀI THI THỰC HÀNH 2 - KTXGO
 - **Họ và tên:** HUỲNH KIM SANG

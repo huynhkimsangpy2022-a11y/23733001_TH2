@@ -48,8 +48,8 @@ export const MainTabs: React.FC = () => {
                 fontSize: 10,
                 fontWeight: 'bold',
               },
-              tabBarIcon: ({ color }) => (
-                <Text style={[styles.tabIcon, { color }]}>🛒</Text>
+              tabBarIcon: () => (
+                <Text style={styles.tabIcon}>🧺</Text>
               ),
             }}
           />
@@ -58,8 +58,8 @@ export const MainTabs: React.FC = () => {
             component={ShopStack}
             options={{
               tabBarLabel: 'Cửa hàng',
-              tabBarIcon: ({ color }) => (
-                <Text style={[styles.tabIcon, { color }]}>🏪</Text>
+              tabBarIcon: () => (
+                <Text style={styles.tabIcon}>🛍️</Text>
               ),
             }}
           />
@@ -68,8 +68,8 @@ export const MainTabs: React.FC = () => {
             component={MeScreen}
             options={{
               tabBarLabel: 'Tôi',
-              tabBarIcon: ({ color }) => (
-                <Text style={[styles.tabIcon, { color }]}>👤</Text>
+              tabBarIcon: () => (
+                <Text style={styles.tabIcon}>🧑‍🎓</Text>
               ),
             }}
           />
@@ -81,8 +81,8 @@ export const MainTabs: React.FC = () => {
             component={ShopStack}
             options={{
               tabBarLabel: 'Cửa hàng',
-              tabBarIcon: ({ color }) => (
-                <Text style={[styles.tabIcon, { color }]}>🏪</Text>
+              tabBarIcon: () => (
+                <Text style={styles.tabIcon}>🛍️</Text>
               ),
             }}
           />
@@ -98,8 +98,8 @@ export const MainTabs: React.FC = () => {
                 fontSize: 10,
                 fontWeight: 'bold',
               },
-              tabBarIcon: ({ color }) => (
-                <Text style={[styles.tabIcon, { color }]}>🛒</Text>
+              tabBarIcon: () => (
+                <Text style={styles.tabIcon}>🧺</Text>
               ),
             }}
           />
@@ -108,8 +108,8 @@ export const MainTabs: React.FC = () => {
             component={MeScreen}
             options={{
               tabBarLabel: 'Tôi',
-              tabBarIcon: ({ color }) => (
-                <Text style={[styles.tabIcon, { color }]}>👤</Text>
+              tabBarIcon: () => (
+                <Text style={styles.tabIcon}>🧑‍🎓</Text>
               ),
             }}
           />
@@ -121,7 +121,7 @@ export const MainTabs: React.FC = () => {
 
 const styles = StyleSheet.create({
   tabIcon: {
-    fontSize: 18,
+    fontSize: 20,
   },
 });
 

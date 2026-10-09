@@ -148,26 +148,31 @@ const styles = StyleSheet.create({
   header: {
     flexDirection: 'row',
     alignItems: 'center',
-    justifyContent: 'space-between',
+    justifyContent: 'center',
     paddingHorizontal: 16,
     paddingVertical: 12,
     backgroundColor: theme.primary,
+    position: 'relative',
   },
   headerContent: {
-    flex: 1,
+    alignItems: 'center',
   },
   headerBrand: {
     fontSize: 22,
     fontWeight: '900',
     color: '#FFFFFF',
     letterSpacing: 2,
+    textAlign: 'center',
   },
   headerRoom: {
     fontSize: 12,
     color: '#BFDBFE',
     marginTop: 1,
+    textAlign: 'center',
   },
   sectionTag: {
+    position: 'absolute',
+    right: 16,
     fontSize: 11,
     fontWeight: '700',
     color: '#FFFFFF',
